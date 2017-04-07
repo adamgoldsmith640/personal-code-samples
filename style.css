@@ -1,0 +1,140 @@
+#wrapper {
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+	background-color: #000000;
+	opacity: .85;
+	border-radius: 45px;
+	color: #FFFFFF;
+}
+#success {
+	color: #00FF00;
+}
+#error{
+	color: red;
+}
+
+
+
+.error {
+	color: red;
+}
+.displayNumber {  //for text boxes that display short numbers
+	width: 50px;
+}
+.tableRow {
+	display: table-row;
+	align: center;
+}
+.form {
+	align: center;
+}
+
+
+
+
+
+
+html
+{
+	font-family:sans-serif;
+	-ms-text-size-adjust:100%;
+	-webkit-text-size-adjust:100%;
+	font-size:1.5em;
+	-webkit-tap-highlight-color:rgba( 0,0,0,0 );
+}
+body
+{
+	background: url( "background_green.jpg" )fixed;
+	background-size: cover;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+	line-height:1.42857143;
+	color:#555;
+	background-color:#FFFFFF;
+	margin:0;
+}
+form
+{
+	margin: 0 auto;
+	align: center;
+}
+label {
+	display: inline-block;
+	white-space: nowrap;
+}
+input, button, select {
+	font-size: 1em;
+	margin: 5px;
+}
+input[type='checkbox'] {
+    width:30px;
+    height:30px;
+    background:white;
+    border-radius:5px;
+    border:2px solid #555;
+	transform:scale( 2 );
+	-ms-transform:scale( 2 );
+	-webkit-transform:scale( 1 );
+	-o-transform:scale( 2 );
+	-moz-transform:scale( 2 );
+	transform-c:0 0;
+	-ms-transform-center:0 0;
+	-webkit-transform-center:0 0;
+	-o-transform-center:0 0;
+	-moz-transform-center:0 0;
+	-webkit-transform-center:0 0;
+}
+nav {
+	text-align: center;
+}
+nav li {
+	display: inline-block;
+	margin: 10px;
+}
+h1 {
+	color: green;
+}
+
+
+
+table {
+	align: center;
+}
+th {
+	text-align: center;
+}
+td {
+	padding: 3px;
+	vertical-align: top;
+	text-align: right;
+}
+#table {
+	display: table;
+	align: center;
+}
+
+#tableRow {
+	display: table-row;
+}
+#cell {
+	display: table-cell;
+}
+
+#tr {
+	display: table-row;
+}
+#td {
+	display: table-cell;
+}
+
+
+
+a, #error a {
+	color: #00FF00;
+}
+a:visited {
+	color: yellow;
+}
+a:hover, #error a:hover {
+	color: cyan;
+}
