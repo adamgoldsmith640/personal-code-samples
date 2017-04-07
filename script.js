@@ -18,6 +18,13 @@ $( document ).ready( function() {
 });
 
 
+//validate if input is a plausible email, including "_-.@_-" (note: does not look for double periods)
+function validateEmail( input ) {
+	if( input == "" ) return true;
+	return input.search( /^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$/ ) == -1 ? false : true
+}
+
+
 //checks that first password is valid, and that the second matches; otherwise, turns field background red
 function validateNewPass() {
 	var validated = true;
