@@ -1,2 +1,2 @@
 # personal-code-samples
-samples of code I wrote in building a web site
+samples of code I wrote in building a web site, mathmeet.com
